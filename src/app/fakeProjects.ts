@@ -1,9 +1,10 @@
 export const projects = [
   {
     name: 'Arrow Ridge Homes',
+    id: 1,
     createdAt: '06/12/2021',
     description:
-      'This Project is for creating the company a website that can be used to highlight their project and get the word out there for them.',
+      'This Project is for creating the company a website that can be used to highlight their project and get the word out there for them. This Project is for creating the company a website that can be used to highlight their project and get the word out there for them.',
     users: [
       {
         name: 'Timothy McGowen',
@@ -24,6 +25,7 @@ export const projects = [
   },
   {
     name: 'Fleet Street',
+    id: 2,
     createdAt: '06/19/2021',
     description:
       'Fleet Street is looking for html pages set up to demonstrate their rad idea.',
@@ -47,6 +49,7 @@ export const projects = [
   },
   {
     name: 'Diamond Peak Design',
+    id: 3,
     createdAt: '06/22/2021',
     description:
       'Diamond Peak Design is looking for a place to showcase their many wonderful home designs.',

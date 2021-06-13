@@ -1,15 +1,20 @@
 .example-card {
   width: 400px;
+  height: 400px;
   background-color: #5dc794;
   color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .mat-card-title {
-  font-size: 32px;
+  font-size: 28px;
 }
 .mat-card-subtitle {
   color: #fff;
 }
 .card-text {
+  height: 100px;
   padding: 10px;
   background-color: #fff;
   color: #a7a4a4;
@@ -24,6 +29,9 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+.mat-card-header {
+  flex-direction: column;
 }
 
 .card-button {

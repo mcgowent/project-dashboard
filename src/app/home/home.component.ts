@@ -11,7 +11,9 @@ import { projects } from '../fakeProjects';
 export class HomeComponent implements OnInit {
   constructor() {}
 
+  data: any[] = projects;
+
   ngOnInit(): void {
-    console.log('test', projects);
+    console.log('Data:', this.data);
   }
 }
